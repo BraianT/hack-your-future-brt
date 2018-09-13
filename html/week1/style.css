@@ -1,0 +1,58 @@
+body {
+    background-image: url("background.png");
+    background-size: cover;
+   /* background-color: rgb(30, 30, 32); */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(55, 170, 116);
+    padding: 3%;
+    border: 12px solid rgba(0, 0, 0, 0);
+
+}
+h1, h3 {
+    color: rgb(155, 63, 63);
+    text-align: center;
+
+}
+h2 {
+    color: rgb(8, 134, 143);
+}
+
+p {
+    color: rgb(182, 176, 90);
+}
+#pic {
+    border-radius: 50%;
+    border: 20px solid rgba(0, 0, 0, 0);
+    margin-left: 2%;
+    float: left;
+    overflow: hidden;
+}
+.presentation { 
+    color: rgb(243, 225, 225);
+    font-family: monospace;
+    font-size: 18px;
+    border-radius: 4%;
+    position: fixed;
+    bottom: 5%;
+    margin-right: 50px;
+    text-align: right;
+    width: 20%;
+    overflow: auto;
+}
+
+.info {
+    /*  border: 2px solid black; */
+    float: right;
+    width: 30%;    
+}
+.content {
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 10px;
+    margin-top: 50px;
+
+
+    /*  border: 2px solid black; */
+
+}
