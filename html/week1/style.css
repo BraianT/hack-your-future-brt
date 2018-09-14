@@ -26,6 +26,7 @@ p {
     margin-left: 2%;
     float: left;
     overflow: hidden;
+    width: 10%;
 }
 .presentation { 
     color: rgb(243, 225, 225);
@@ -33,7 +34,7 @@ p {
     font-size: 18px;
     border-radius: 4%;
     position: fixed;
-    bottom: 5%;
+    bottom: 10%;
     margin-right: 50px;
     text-align: right;
     width: 20%;
