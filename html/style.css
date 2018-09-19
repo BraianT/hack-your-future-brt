@@ -1,0 +1,27 @@
+.column {
+    min-height: 30em;
+    margin: 1em;
+    background-color: teal;
+}
+
+@media (min-width: 400px) {
+
+body {
+    background-color: salmon;
+}
+
+@media (min-width: 550px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+    .column {
+        flex: 1;
+        min-width: 25%;
+    }
+
+    .primary {
+        flex: 2;
+    }
+}
