@@ -1,0 +1,38 @@
+console.log("Hello World!");//1
+
+console.log("I'm awesome"); //2. quotation marks
+
+var x; //3.1
+console.log("The vslue of x will be: String Test");//3.2
+
+console.log(x); //3.3
+
+x = "String Test";
+console.log(x);
+{
+
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "msbuild",
+            "args": [
+                // Ask msbuild to generate full paths for file names.
+                "/property:GenerateFullPaths=true",
+                "/t:build"
+            ],
+            "group": "build",
+            "presentation": {
+                // Reveal the output only if unrecognized errors occur.
+                "reveal": "silent"
+            },
+            // Use the standard MS compiler pattern to detect errors, warnings and infos
+            "problemMatcher": "$msCompile"
+        }
+    ]
+
+    
+}
